@@ -1,0 +1,69 @@
+h1{
+color:yellow;
+}
+h2{
+color:brown;
+}
+h3{
+color:red;
+}
+.header{
+background-color:darksalmon;
+display:flex;
+justify-content:space-around;
+}
+.menu{
+
+font-size:30px;
+padding:30px;
+background-color: blueviolet;
+}
+.body{
+background-color:lawngreen;
+margin-left:100px;
+margin-right:100px;
+margin-bottom:100px;
+}
+.footer{
+font-size:100px;
+color:pink
+}
+a:visited{
+color:white;
+}
+.image1{
+position:relative;
+}
+.image1 p{
+position:absolute;
+top:50%;
+left : 50%;
+transform:translate(-50%,-50%);
+opacity:0;
+font-size:70px;
+}
+.image1:hover p{
+opacity:1;
+}
+.image1:hover{
+opacity:0.5;
+}
+.image2{
+position:relative;
+}
+.image2 p{
+position:absolute;
+top:50%;
+left : 50%;
+transform:translate(-50%,-50%);
+opacity:0;
+font-size:70px;
+}
+.image2:hover p{
+opacity:1;
+}
+.image2:hover{
+opacity:0.5;
+}
+
+
